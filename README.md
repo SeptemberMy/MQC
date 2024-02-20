@@ -133,3 +133,6 @@ make latex
 ```
 You can use ```make cleandoc``` to clean up the document files.
 See [how to generate document](./Doc/README.md).
+## Reference
+[1] [*Programming Projects* from Crawford Group](https://github.com/CrawfordGroup/ProgrammingProjects) 
+[2] Q. Sun. J. Comput. Chem. 2015, 36, 1664–1671. DOI: 10.1002/jcc.23981

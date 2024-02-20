@@ -25,7 +25,8 @@ clean:
 	del  *.o  *.mod
 #### for Linux		
 mqclinux: main.o  Global.o Int1e.o Int2e.o IO.o HartreeFock.o NumInt.o 
-	$(gg) -o mqc main.o  Global.o Int1e.o Int2e.o IO.o HartreeFock.o NumInt.o  Init.o -L ./lib/  -llapack -lblas -fdefault-integer-8
+	$(gg) -o mqc main.o  Global.o Int1e.o Int2e.o IO.o HartreeFock.o NumInt.o  Init.o \
+	   -L ./lib/  -llapacklinux -lblaslinux -lcintlinux -fdefault-integer-8
 cleanlinux:
 	 rm  *.o  *.mod
 html:
