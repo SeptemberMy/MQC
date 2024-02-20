@@ -133,13 +133,3 @@ make latex
 ```
 You can use ```make cleandoc``` to clean up the document files.
 See [how to generate document](./Doc/README.md).
-## How To Cite
-[MQC's github page(development branch)](https://github.com/SeptemberMy/MQC-develop):```https://github.com/SeptemberMy/MQC-develop```
-
-If MQC is utilized in your work, the following should be cited in your article:
-
-***Mengyuan Wu, MQC, Version(current version), [https://github.com/SeptemberMy/MQC-develop](https://github.com/SeptemberMy/MQC-develop)***
-
-For example:
-
-***Mengyuan Wu, MQC, Version(demo), [https://github.com/SeptemberMy/MQC-develop](https://github.com/SeptemberMy/MQC-develop)***
