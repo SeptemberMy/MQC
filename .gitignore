@@ -1,0 +1,6 @@
+Doc/build
+*.dat
+*.exe
+*.log
+*.o
+*.mod

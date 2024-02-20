@@ -1,0 +1,28 @@
+Hello water !
+! WINDOWS
+# TASK
+  ENERGY  ccsd(t)
+END
+# BASIS
+sto-3g
+END
+# MOLECULE 
+  0 1
+  bohr
+3
+8   0.0000000000      0.0000000000      0.0000000000
+1   0.0000000000      0.0000000000      2.0579117587
+1   1.9923624133      0.0000000000     -0.5152599545
+END
+ # SCF
+  damp    0.1
+  guess  1
+END
+# INT
+  libcint   off
+END
+# OUTPUT
+  level  3
+END
+>END
+
