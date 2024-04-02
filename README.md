@@ -106,7 +106,7 @@ Done!
 
 For more specific content, please refer to the **document**.
 ## Package Features
-- **Intgral**
+- **Integral**
     - *Overlap integrals **(S)***
     - *Kinetic integrals **(T)***
     - *Nuclear attraction integrals **(NAI)***
