@@ -66,7 +66,7 @@
         fockspin=0d0    
         do ii=1,nspin
             iispa=ceiling(ii/2d0)
-            fockspin(ii,ii)=Eorb(ii)
+            fockspin(ii,ii)=Eorb(iispa)
         end do  
         tia=0d0
         tijab=0d0       
