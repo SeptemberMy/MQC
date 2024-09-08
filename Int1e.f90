@@ -149,7 +149,7 @@
                  S(nbasis,nbasis),T(nbasis,nbasis),V(nbasis,nbasis),&
                  Hcore(nbasis,nbasis),coor(natom,3),katom(natom),&
                  dipx(nbasis,nbasis),dipy(nbasis,nbasis),dipz(nbasis,nbasis)
-        dimension::kcenter(Natom),gfc(ngfall),gfe(ngfall),ntype(nshell),ngf(nshell)     
+        dimension::kcenter(nshell),gfc(ngfall),gfe(ngfall),ntype(nshell),ngf(nshell)     
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    
 !!=====================================================================!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1198,10 +1198,10 @@
         dimension::V(nbasisaux,nbasis),coor(natom,3),katom(natom)
         dimension::kbasst(nshell),kbased(nshell),knbas(nshell),&
                  kpgfst(nshell),kpgfed(nshell),naxyz(3*nbasis),&
-                 kcenter(Natom),gfc(ngfall),gfe(ngfall),ntype(nshell),ngf(nshell) 
+                 kcenter(nshell),gfc(ngfall),gfe(ngfall),ntype(nshell),ngf(nshell) 
         dimension::kbasstaux(nshellaux),kbasedaux(nshellaux),knbasaux(nshellaux),&
                  kpgfstaux(nshellaux),kpgfedaux(nshellaux),naxyzaux(3*nbasisaux),&
-        kcenteraux(Natom),gfcaux(ngfallaux),gfeaux(ngfallaux),ntypeaux(nshellaux),ngfaux(nshellaux)                  
+        kcenteraux(nshellaux),gfcaux(ngfallaux),gfeaux(ngfallaux),ntypeaux(nshellaux),ngfaux(nshellaux)                  
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    
 !!=====================================================================!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!

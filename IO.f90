@@ -647,7 +647,7 @@
             implicit double precision (A-H,O-Z)
             dimension::kbasst(nshell),kbased(nshell),knbas(nshell),&
                  kpgfst(nshell),kpgfed(nshell),katom(natom)
-            dimension::kcenter(Natom),gfc(ngfall),gfe(ngfall),ntype(nshell),ngf(nshell)     
+            dimension::kcenter(nshell),gfc(ngfall),gfe(ngfall),ntype(nshell),ngf(nshell)     
 !! BASIS SET
       write(kfid,*)'=======================================&
                   =========================================&

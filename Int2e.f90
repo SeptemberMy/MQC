@@ -140,7 +140,7 @@
         dimension::kbasst(nshell),kbased(nshell),knbas(nshell),&
                  kpgfst(nshell),kpgfed(nshell),naxyz(3*nbasis),&
                  ERIall(neri),coor(natom,3)   
-        dimension::kcenter(Natom),gfc(ngfall),gfe(ngfall),ntype(nshell),ngf(nshell)     
+        dimension::kcenter(nshell),gfc(ngfall),gfe(ngfall),ntype(nshell),ngf(nshell)     
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!=================================================================!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
